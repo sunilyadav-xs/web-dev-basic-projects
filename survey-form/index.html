@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Survey Form</title>
+        <link rel="stylesheet" href="style.css">
+        <link rel="stylesheet" type='text/css' href="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/devicon.min.css" />
+          
+    </head>
+    <body>
+       
+        <h3>Survey Form</h3>
+
+        <form id="form>">
+            <div class="form-control">
+                <label for="name" id="label-name">Name:</label>
+                <input type="text" id="name" placeholder="Enter your name">
+            </div>
+            <div class="form-control">
+                <label for="email" id="label-email">Email:</label>
+                <input type="text" id="email" placeholder="Enter your E-mail">
+            </div>
+            <div class="form-control">
+                <label for="age" id="label-age">Age:</label>
+                <input type="text" id="age" placeholder="Enter your age">
+            </div>
+            <div class="form-control">
+                <label>Gender:</label>             
+                <label for="male"> <input type="radio" id="male" name="gender">Male</label>
+                <label for="female"><input type="radio" id="female" name="gender">Female</label>
+                <label for="other"><input type="radio" id="other" name="gender">Other</label>
+            </div>
+            <div class="form-control">
+                <label for="profession" id="label-profession">Profession:</label><br>
+                <select id="profession" name="profession">
+                    <option value="Student">Student</option>
+                    <option value="Employeed">Employeed</option>
+                    <option value="Non-Employeed">Non-Employeed</option>
+                    <option value="Other">Other</option>
+                </select>
+
+            </div>
+            <div class="form-control">
+                <label>Which languages & framworks are you good at?</label><br>
+                <label for="c"><input type="checkbox" id="c">
+                    <i class="devicon-c-line-wordmark colored"></i>
+                  C</label><br>
+                <label for="cpp"><input type="checkbox" id="cpp">
+                    <i class="devicon-cplusplus-plain colored"></i>
+                  C++</label><br>
+                <label for="java"><input type="checkbox" id="java">
+                    <i class="devicon-java-plain-wordmark colored"></i>
+                  Java</label><br>
+                <label for="python"><input type="checkbox" id="python">
+                    <i class="devicon-python-plain-wordmark colored"></i>
+                  Python</label><br>
+                <label for="html"><input type="checkbox" id="html">
+                    <i class="devicon-html5-plain-wordmark colored"></i>
+                  HTML</label><br>
+                <label for="css"><input type="checkbox" id="css">
+                    <i class="devicon-css3-plain-wordmark colored"></i>
+                  CSS</label><br>
+                <label for="js"><input type="checkbox" id="js">
+                    <i class="devicon-javascript-plain colored"></i>
+                  JavaScript</label><br>
+                <label for="rct"><input type="checkbox" id="rct">
+                    <i class="devicon-react-original-wordmark colored"></i>
+                  React</label><br>
+                <label for="ang"><input type="checkbox" id="ang">
+                    <i class="devicon-angularjs-plain colored"></i>
+                  Angular</label><br>
+                <label for="node"><input type="checkbox" id="node">
+                    <i class="devicon-nodejs-plain-wordmark colored"></i>
+                  Node</label>
+            </div>
+            <div class="form-control">
+                <label for="personal" id="label-personal">Write something about yourself:</label><br>
+                <textarea name="personal" id="personal" placeholder="Write Something" rows="5" cols="30"></textarea>
+            </div>
+            <div class="form-control">
+                <input type="submit">
+                <input type="reset">
+            </div>
+        </form>
+
+    </body>
+</html>
